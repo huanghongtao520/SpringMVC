@@ -7,6 +7,9 @@
     <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
     <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"/>
     <!--视图解析器-->
+    <!--获取类ModelAndView中的数据-->
+    <!--解析ModelAndView视图名-->
+    <!--拼接前缀和后缀，找到相应的视图-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <!--前缀-->
         <property name="prefix" value="/WEB-INF/jsp/"/>
