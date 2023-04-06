@@ -11,6 +11,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>A01</module>
+        <module>A02-annotation</module>
     </modules>
 
     <properties>
