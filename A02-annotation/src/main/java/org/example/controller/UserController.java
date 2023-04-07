@@ -15,7 +15,7 @@ public class UserController {
     @RequestMapping("/user")
     @ResponseBody //表示不会走视图解析器，直接返回一个字符串到网页
     public String json1() throws JsonProcessingException {
-        //中文显示到网页会乱码
+        //中文显示到网页会乱码。
         User user = new User(1,"黄宏涛",23);
         //将对象User(id=1, name=黄宏涛, age=23)
         //转为字符串形式{"id":1,"name":"黄宏涛","age":23}
